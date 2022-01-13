@@ -57,7 +57,7 @@ function updateResults(){
   // TODO: Use the workAroundModule functions to calculate the needed data.
   const averageSalaryByRole = getAverageSalaryByRole(role);
   const averageSalaryByCompany = getAverageSalaryByCompany(company);
-  const salary = getSalaryAtCompany(company);
+  const salary = getSalaryAtCompany(role, company);
   const industryAverageSalary = getIndustryAverageSalary();
 
   // Render them to the screen.
