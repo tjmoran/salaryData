@@ -55,7 +55,7 @@ function updateResults(){
   if (!company || !role) { return; }
 
   // TODO: Use the workAroundModule functions to calculate the needed data.
-  const averageSalaryByRole = getAverageSalaryByRole(role);
+  const averageSalaryByRole = 10;
   const averageSalaryByCompany = 0;
   const salary = 0;
   const industryAverageSalary = 0;
